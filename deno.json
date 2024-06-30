@@ -1,0 +1,22 @@
+{
+  "name": "@vmolero/dex-migrations",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno run --watch mod.ts",
+    "prod": "deno run mod.ts"
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 80,
+    "indentWidth": 2,
+    "semiColons": false,
+    "singleQuote": true,
+    "proseWrap": "preserve",
+    "include": ["src/"],
+    "exclude": ["src/testdata/", "src/fixtures/**/*.ts"]
+  },
+  "imports": {
+    "@std/cli": "jsr:@std/cli@^0.224.7"
+  }
+}
