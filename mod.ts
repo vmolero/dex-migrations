@@ -1,6 +1,6 @@
 import MigrationService from './src/MigrationService.ts'
 
-const migrationService = new MigrationService();
+// const migrationService = new MigrationService();
 export default {
-  init: (location: string) => migrationService.init(location)
+  init: (location: string) => MigrationService.init(location)
 }

@@ -17,6 +17,7 @@
     "exclude": ["src/testdata/", "src/fixtures/**/*.ts"]
   },
   "imports": {
-    "@std/cli": "jsr:@std/cli@^0.224.7"
+    "@std/cli": "jsr:@std/cli@^0.224.7",
+    "@std/testing": "jsr:@std/testing@^0.225.3"
   }
 }
